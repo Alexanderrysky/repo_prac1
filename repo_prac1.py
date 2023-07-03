@@ -7,3 +7,9 @@ if quest == "yes":
     print("alright")
 else:
     print("...")
+
+mergeprac2 = input("how hard is it to come up with 2 different questions")
+if mergeprac2 == "very":
+    print("correct")
+else:
+    print("lucky you")
