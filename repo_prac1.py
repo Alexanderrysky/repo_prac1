@@ -7,3 +7,9 @@ if quest == "yes":
     print("alright")
 else:
     print("...")
+
+merge1 = input("do you know what happens if i merge these")
+if input == "yes":
+    print("no u dont")
+else:
+    print("same")
