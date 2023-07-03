@@ -13,3 +13,10 @@ if mergeprac2 == "very":
     print("correct")
 else:
     print("lucky you")
+    
+merge1 = input("do you know what happens if i merge these")
+if input == "yes":
+    print("no u dont")
+else:
+    print("same")
+
