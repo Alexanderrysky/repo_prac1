@@ -29,7 +29,7 @@ values(1,"action adventure"),
       (11,'role playing'),
       (12,'racing'),
       (13,'rogue-like'),
-      (14,'strategy')
+      (14,'strategy'),
       (15,'strand');
 
 insert data_exploration.fact_ratings(
