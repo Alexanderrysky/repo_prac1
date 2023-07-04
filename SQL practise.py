@@ -16,8 +16,8 @@ create table if not exists data_exploration.fact_ratings
 (
     fk_game                int,
     fk_genre               int,
-    ratings_value          float,
+    ratings_value          float64,
     rating_validity_date   date,
-    audience_ratings       float,
-    audience_validity_date float,
+    audience_ratings       float64,
+    audience_validity_date float64,
 );
