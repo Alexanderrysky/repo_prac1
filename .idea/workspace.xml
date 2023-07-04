@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dcdbb54-6987-4405-9687-121efe2c735a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/SQL practise.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL_create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_analytics.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql_analytics.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
