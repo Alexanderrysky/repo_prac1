@@ -12,7 +12,7 @@ create table if not exists data_exploration.dim_genres
     genre_name_en   string
 );
 
-create table if not exists data_exploration.fact_gamers_ratings
+create table if not exists data_exploration.fact_gamers_scores
 (
     fk_game                 int,
     fk_genre                int,

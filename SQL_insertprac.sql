@@ -32,7 +32,7 @@ values(1,"action adventure"),
       (14,'strategy'),
       (15,'strand');
 
-insert data_exploration.fact_gamers_ratings(
+insert data_exploration.fact_gamers_scores(
        fk_game,
        fk_genre,
        fk_gamer,
