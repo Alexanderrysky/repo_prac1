@@ -62,4 +62,4 @@ insert data_exploration.dim_countries(
        country_name_en
 )
 values(1,'Russia'),
-      (2,'america');
+      (2,'America');
