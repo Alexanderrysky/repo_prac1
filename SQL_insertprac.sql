@@ -32,18 +32,34 @@ values(1,"action adventure"),
       (14,'strategy'),
       (15,'strand');
 
-insert data_exploration.fact_ratings(
+insert data_exploration.fact_gamers_ratings(
        fk_game,
        fk_genre,
-       ratings_values,
-       rating_validity_date,
-       audience_ratings,
-       audience_validity_date
+       fk_gamer,
+       score_value,
+       score_date,
+       score_validity_date
 )
-values(1,2,'9/10','2030-12-2','10/10','2025-01-8'),
-      (2,1,'8/10','2029-12-2','9/10','2024-07-28'),
-      (3,7,'9/10','2032-12-2','10,10','2027-07-14'),
-      (4,7,'10/10','2037-12-2','10/10','2032-05-17'),
-      (5,6,'7/10','2030-12-2','9/10','2025-03-21'),
-      (6,1,'10/10','2033-12-2','10/10','2028-08-2'),
-      (7,15,'8/10','2034-12-2','10/10','2029-06-5');
+values(1,2,1,'9','2020-12-2','2030-12-2')
+      (2,1,2,'8','2021-12-2','2029-12-2'),
+      (3,7,3,'9','2023-12-2','2032-12-2'),
+      (4,7,4,'10','2000-12-2','2037-12-2'),
+      (5,6,5,'7','2015-12-2','2030-12-2'),
+      (6,1,6,'10','2018-12-2','2033-12-2'),
+      (7,15,7,'8','2020-12-2','2034-12-2');
+
+insert data_exploration.dim_gamers(
+       id_gamer,
+       gamer_username_en,
+       fk_country
+)
+values(1,'smasholicous',1),
+      (2,'anarook',2)
+      (3,'sachin saucy',3);
+
+insert data_exploration.dim_countries(
+       id_country,
+       country_name_en
+)
+values(1,'Russia'),
+      (2,'america');
