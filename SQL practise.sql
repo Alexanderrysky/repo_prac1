@@ -33,4 +33,4 @@ create table if not exists data_exploration.dim_countries
 (
    id_country       int,
    country_name_en  string,
-)
+);
