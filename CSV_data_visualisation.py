@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 #df = pd.read_csv("revenue_july.csv")
 #print(df.to_string())
@@ -20,4 +21,8 @@ revenue = pd.read_csv("revenue_july.csv")
 #plt.pie(revenue["gross_revenue"], labels = revenue["city_name_en"])
 #plt.show()
 
-plt.bar(x='')
+#plt.bar(x = revenue['sales_date'],height = revenue['gross_revenue'])
+plt.bar(x=revenue['sales_date'],height=revenue['gross_revenue','gross_shipping_cost'])
+plt.xlabel("dates")
+plt.ylabel("gross revenue")
+plt.show()
