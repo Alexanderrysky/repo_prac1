@@ -1,11 +1,11 @@
 sales_date,currency,city_name_en,gross_shipping_cost,gross_revenue
-2023-07-03,USD,Maysan,0.0,2740
-2023-07-03,USD,Basrah,1088.0,2882
-2023-07-03,USD,Al Muthanna Governorate,0.0,11900
-2023-07-03,USD,Baghdad,336.0,12822
-2023-07-03,USD,Al Anbar,0.0,45500
-2023-07-03,USD,Najaf,0.0,45500
-2023-07-03,USD,Al Sulaymaniah,0.0,91800
-2023-07-04,USD,Basrah,1088.0,1440
-2023-07-04,USD,Erbil,0.0,26500
-2023-07-04,USD,Al Tamim,0.0,43900
+2023-07-03,USD,Maysan,0.0,2740.0
+2023-07-03,USD,Basrah,1088.0,2882.0
+2023-07-03,USD,Al Muthanna Governorate,0.0,11900.0
+2023-07-03,USD,Baghdad,336.0,12822.0
+2023-07-03,USD,Al Anbar,0.0,45500.0
+2023-07-03,USD,Najaf,0.0,45500.0
+2023-07-03,USD,Al Sulaymaniah,0.0,91800.0
+2023-07-04,USD,Basrah,1088.0,1440.0
+2023-07-04,USD,Erbil,0.0,26500.0
+2023-07-04,USD,Al Tamim,0.0,43900.0
