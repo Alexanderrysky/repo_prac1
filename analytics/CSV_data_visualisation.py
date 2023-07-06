@@ -17,20 +17,27 @@ revenue_full = pd.read_csv("revenue_july_full.csv")
 #plt.show()
 
 #PLOTTIG PIE GRAPH
-#revenue pie graph
-revenue_no_date = pd.read_csv("july_revenue_no_dates.csv")
-revenue_no_date['gross_revenue'] = revenue_no_date['gross_revenue'].astype(float)
-#print(revenue_no_date.dtypes)
-plt.pie(revenue_no_date["gross_revenue"], labels=revenue_no_date["city_name_en"],rotatelabels=30,
-        textprops={'fontsize':5.5})
-#plt.title("GROSS REVENUE SHARE")
-plt.show()
 
-#shipping cost pie graph
-#shipping_cost_no_date = pd.read_csv("july_shipping_cost_no_dates.csv")
-#plt.pie(shipping_cost_no_date["gross_shipping_cost"], labels=shipping_cost_no_date["city_name_en"],rotatelabels=30)
-#plt.title("GROSS SHIPPING COST SHARE")
+#REVENUE pie graph:
+#revenue_no_date = pd.read_csv("july_revenue_no_dates.csv")
+#revenue_no_date['gross_revenue'] = revenue_no_date['gross_revenue'].astype(float)
+#explodelist_revenue = []
+#for x in range(0,len(revenue_no_date["gross_revenue"])):
+#    explodelist_revenue.append(0.1)
+#plt.pie(revenue_no_date["gross_revenue"], labels=revenue_no_date["city_name_en"],rotatelabels=30,
+#        textprops={'fontsize':5.5}, autopct='%1.1f%%',explode=explodelist_revenue)
+#plt.title("GROSS REVENUE SHARE")
 #plt.show()
+
+#SHIPPING COST pie graph
+shipping_cost_no_date = pd.read_csv("july_shipping_cost_no_dates.csv")
+explodelist_cost = []
+for x in range(0,len(shipping_cost_no_date["gross_revenue"])):
+    explodelist_cost.append(0.1)
+plt.pie(shipping_cost_no_date["gross_shipping_cost"], labels=shipping_cost_no_date["city_name_en"],rotatelabels=30,
+         autopct='%1.1f%%',explode=explodelist_cost)
+plt.title("GROSS SHIPPING COST SHARE")
+plt.show()
 
 
 
