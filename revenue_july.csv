@@ -1,11 +1,24 @@
-sales_date,currency,city_name_en,gross_shipping_cost,gross_revenue
-2023-07-03,USD,Maysan,0.0,2740.0
-2023-07-03,USD,Basrah,1088.0,2882.0
-2023-07-03,USD,Al Muthanna Governorate,0.0,11900.0
-2023-07-03,USD,Baghdad,336.0,12822.0
-2023-07-03,USD,Al Anbar,0.0,45500.0
-2023-07-03,USD,Najaf,0.0,45500.0
-2023-07-03,USD,Al Sulaymaniah,0.0,91800.0
-2023-07-04,USD,Basrah,1088.0,1440.0
-2023-07-04,USD,Erbil,0.0,26500.0
-2023-07-04,USD,Al Tamim,0.0,43900.0
+sales_date,currency,spryker_order_state,gross_shipping_cost,gross_revenue,city_name_en
+2023-07-05,USD,ready_to_ship,336.0,180.33,Baghdad
+2023-07-04,USD,ready_to_ship,0.0,265.0,Erbil
+2023-07-04,USD,ready_to_ship,0.0,757.54,Al Muthanna Governorate
+2023-07-04,USD,ready_to_ship,0.0,1060.0,Al Anbar
+2023-07-03,USD,ready_to_ship,0.0,27.4,Maysan
+2023-07-03,USD,ready_to_ship,336.0,666.81,Baghdad
+2023-07-03,USD,ready_to_ship,0.0,307.54,Al Quadisiya Governorate
+2023-07-03,USD,ready_to_ship,0.0,39.0,Karbala
+2023-07-03,USD,ready_to_ship,0.0,455.0,Al Anbar
+2023-07-03,USD,ready_to_ship,0.0,918.0,Al Sulaymaniah
+2023-07-03,USD,ready_to_ship,0.0,148.25,Al Muthanna Governorate
+2023-07-03,USD,ready_to_ship,544.0,26.42,Basrah
+2023-07-03,USD,ready_to_ship,0.0,78.6,Dhi Qar Governorate
+2023-07-03,USD,ready_to_ship,544.0,470.0,Najaf
+2023-07-04,USD,ready_to_ship,0.0,75.0,Baghdad
+2023-07-04,USD,ready_to_ship,0.0,27.4,Wasit
+2023-07-04,USD,ready_to_ship,0.0,439.0,Al Tamim
+2023-07-04,USD,ready_to_ship,0.0,27.4,Maysan
+2023-07-04,USD,ready_to_ship,0.0,1060.0,Diyala Governorate
+2023-07-03,USD,ready_to_ship_sms,0.0,109.97,Baghdad
+2023-07-03,USD,ready_to_ship_sms,544.0,2.4,Basrah
+2023-07-04,USD,delivered,544.0,2.4,Basrah
+2023-07-04,USD,delivered_sms,544.0,12.0,Basrah
