@@ -1,3 +1,4 @@
+import sys
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -15,6 +16,18 @@ revenue_full = pd.read_csv("revenue_july_full.csv")
 #print(revenue_full.head())
 #revenue_full.plot.scatter(x = 'sales_date', y = 'gross_revenue')
 #plt.show()
+
+#LINE GRAPH PLOTING
+#REVENUE line graph
+
+revenue = pd.read_csv("july_revenue_cost_citie_date_no_repeat.csv")
+revenue = revenue.head(len(revenue))
+revenue = revenue.pivot(index='sales_date',columns='city_name_en', values='gross_revenue')
+print(revenue)
+revenue.plot(figsize=(20,20),kind='bar',rot=30)
+plt.show()
+sys.exit()
+
 
 #PLOTTIG PIE GRAPH
 
@@ -56,15 +69,15 @@ revenue_full = pd.read_csv("revenue_july_full.csv")
 #BEST BAR CHART
 
 #CITIES bar chart
-barchat_city = pd.read_csv("july_revenue_no_dates.csv")
-barchat_city = barchat_city.head(len(barchat_city))
-df = pd.DataFrame(barchat_city, columns=["city_name_en","gross_revenue","gross_shipping_cost"])
-df = df.sort_values('city_name_en')
-df.plot(x="city_name_en", y=["gross_revenue", "gross_shipping_cost"], kind="bar", rot=30, figsize=(9, 8),
-        fontsize = 5.5)
-plt.xlabel("Cities")
-plt.ylabel("gross revenue/shipping cost")
-plt.show()
+#barchat_city = pd.read_csv("july_revenue_no_dates.csv")
+#barchat_city = barchat_city.head(len(barchat_city))
+#df = pd.DataFrame(barchat_city, columns=["city_name_en","gross_revenue","gross_shipping_cost"])
+#df = df.sort_values('city_name_en')
+#df.plot(x="city_name_en", y=["gross_revenue", "gross_shipping_cost"], kind="bar", rot=30, figsize=(9, 8),
+#        fontsize = 5.5)
+#plt.xlabel("Cities")
+#plt.ylabel("gross revenue/shipping cost")
+#plt.show()
 
 #DATES bar chart
 #barchart_date = pd.read_csv("july_revenue_cost_no_cities.csv")
@@ -75,3 +88,4 @@ plt.show()
 #plt.xlabel("order date")
 #plt.ylabel("gross revenue/shipping cost")
 #plt.show()
+
