@@ -1,15 +1,19 @@
 gross_shipping_cost,gross_revenue,city_name_en
-6.72,1300.06,Baghdad
-0.0,455.49,Al Quadisiya Governorate
-0.0,905.79,Al Muthanna Governorate
-0.0,1515.0,Al Anbar
-0.0,39.0,Karbala
-21.76,43.22,Basrah
-0.0,78.6,Dhi Qar Governorate
-5.44,470.0,Najaf
-0.0,27.4,Wasit
+10.08,3535.69,Baghdad
+0.0,381.8,Maysan
+0.0,1580.3,Al Anbar
+10.88,915.79,Al Muthanna Governorate
+27.2,874.22,Basrah
+5.44,965.45,Najaf
 0.0,439.0,Al Tamim
-0.0,54.8,Maysan
-0.0,1060.0,Diyala Governorate
-0.0,918.0,Al Sulaymaniah
-0.0,265.0,Erbil
+0.0,551.87,Al Quadisiya Governorate
+5.44,129.7,Karbala
+0.0,78.6,Dhi Qar Governorate
+0.0,27.4,Wasit
+5.44,1075.0,Diyala Governorate
+0.0,2299.33,Al Sulaymaniah
+0.0,115.0,Duhok
+0.0,130.0,Salah Al Deen
+0.0,383.0,Mosul
+0.0,614.0,Babel
+0.0,294.0,Erbil
