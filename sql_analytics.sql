@@ -27,8 +27,8 @@ date(a.order_date) sales_date,
 a.currency,
 b.spryker_order_state,
 #a.exchange_rate,
-sum(c.shipping_fee)     gross_shipping_cost,
-SUM(a.item_gross_price)  gross_revenue,
+sum(c.shipping_fee)          gross_shipping_cost,
+SUM(a.item_gross_price)/100  gross_revenue,
 a.city_name_en
 from analytics.fact_items a
 left join gcp_gs.map_order_item_status b

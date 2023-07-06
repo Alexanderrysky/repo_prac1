@@ -21,8 +21,22 @@ revenue = pd.read_csv("revenue_july.csv")
 #plt.pie(revenue["gross_revenue"], labels = revenue["city_name_en"])
 #plt.show()
 
-#plt.bar(x = revenue['sales_date'],height = revenue['gross_revenue'])
-plt.bar(x=revenue['sales_date'],height=revenue['gross_revenue','gross_shipping_cost'])
+
+#BAR CHART EXPERIMENTATION
+#plt.bar(x = revenue['sales_date'],height = revenue['gross_revenue'],color = 'orange')
+#plt.xlabel("dates")
+#plt.ylabel("gross revenue")
+#plt.show()
+
+#fig, ax = plt.subplots()
+#revenue.plot.bar(x='sales_date', ax=ax)
+#plt.xlabel("dates")
+#plt.ylabel("gross revenue")
+#plt.show()
+
+revenue = revenue.head()
+df = pd.DataFrame(revenue, columns=["sales_date", "gross_revenue", "gross_shipping_cost"])
+df.plot(x="sales_date", y=["gross_revenue", "gross_shipping_cost"], kind="bar", rot=0)
 plt.xlabel("dates")
 plt.ylabel("gross revenue")
 plt.show()
