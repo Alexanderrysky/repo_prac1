@@ -30,14 +30,14 @@ revenue_full = pd.read_csv("revenue_july_full.csv")
 #plt.show()
 
 #SHIPPING COST pie graph
-shipping_cost_no_date = pd.read_csv("july_shipping_cost_no_dates.csv")
-explodelist_cost = []
-for x in range(0,len(shipping_cost_no_date["gross_revenue"])):
-    explodelist_cost.append(0.1)
-plt.pie(shipping_cost_no_date["gross_shipping_cost"], labels=shipping_cost_no_date["city_name_en"],rotatelabels=30,
-         autopct='%1.1f%%',explode=explodelist_cost)
-plt.title("GROSS SHIPPING COST SHARE")
-plt.show()
+#shipping_cost_no_date = pd.read_csv("july_only_shipping_cost_no_dates.csv")
+#explodelist_cost = []
+#for x in range(0,len(shipping_cost_no_date["gross_revenue"])):
+#    explodelist_cost.append(0.1)
+#plt.pie(shipping_cost_no_date["gross_shipping_cost"], labels=shipping_cost_no_date["city_name_en"],rotatelabels=30,
+#         autopct='%1.1f%%',explode=explodelist_cost)
+#plt.title("GROSS SHIPPING COST SHARE")
+#plt.show()
 
 
 
@@ -54,6 +54,8 @@ plt.show()
 #plt.show()
 
 #BEST BAR CHART
+
+#CITIES bar chart
 #barchat_city = pd.read_csv("july_revenue_no_dates.csv")
 #barchat_city = barchat_city.head(len(barchat_city))
 #df = pd.DataFrame(barchat_city, columns=["city_name_en","gross_revenue","gross_shipping_cost"])
@@ -63,6 +65,7 @@ plt.show()
 #plt.ylabel("gross revenue/shipping cost")
 #plt.show()
 
+#DATES bar chart
 #barchart_date = pd.read_csv("july_revenue_cost_no_cities.csv")
 #barchart_date = barchart_date.head(len(barchart_date))
 #df = pd.DataFrame(barchart_date, columns= ['order_date_nk',"gross_revenue","gross_shipping_cost"])
