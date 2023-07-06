@@ -22,9 +22,11 @@ revenue_full = pd.read_csv("revenue_july_full.csv")
 
 revenue = pd.read_csv("july_revenue_cost_citie_date_no_repeat.csv")
 revenue = revenue.head(len(revenue))
+print(revenue)
 revenue = revenue.pivot(index='sales_date',columns='city_name_en', values='gross_revenue')
 print(revenue)
-revenue.plot(figsize=(20,20),kind='bar',rot=30)
+revenue.plot(figsize=(5,8),kind='bar',rot=30)
+plt.ylabel("Gross revenue")
 plt.show()
 sys.exit()
 

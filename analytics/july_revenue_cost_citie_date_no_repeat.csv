@@ -1,22 +1,37 @@
-sales_date,gross_shipping_cost,gross_revenue,city_name_en
-2023-07-05,3.36,300.33,Baghdad
-2023-07-04,0.0,147.95,Al Quadisiya Governorate
-2023-07-04,0.0,757.54,Al Muthanna Governorate
-2023-07-04,0.0,222.95,Baghdad
-2023-07-04,0.0,1060.0,Al Anbar
-2023-07-03,3.36,776.78,Baghdad
-2023-07-03,0.0,39.0,Karbala
-2023-07-03,0.0,455.0,Al Anbar
-2023-07-03,0.0,148.25,Al Muthanna Governorate
-2023-07-03,10.88,28.82,Basrah
-2023-07-03,0.0,78.6,Dhi Qar Governorate
-2023-07-03,5.44,470.0,Najaf
-2023-07-04,0.0,27.4,Wasit
-2023-07-04,0.0,439.0,Al Tamim
-2023-07-04,0.0,27.4,Maysan
-2023-07-04,0.0,1060.0,Diyala Governorate
-2023-07-03,0.0,27.4,Maysan
-2023-07-03,0.0,307.54,Al Quadisiya Governorate
-2023-07-04,10.88,14.4,Basrah
-2023-07-03,0.0,918.0,Al Sulaymaniah
-2023-07-04,0.0,265.0,Erbil
+sales_date,gross_shipping_cost,gross_revenue,gross_orders_num,city_name_en
+2023-07-03,6.72,1066.78,12,Baghdad
+2023-07-03,0.0,61.4,2,Maysan
+2023-07-03,0.0,455.0,1,Al Anbar
+2023-07-03,0.0,148.25,2,Al Muthanna Governorate
+2023-07-03,10.88,141.82,3,Basrah
+2023-07-03,5.44,470.0,2,Najaf
+2023-07-04,0.0,439.0,1,Al Tamim
+2023-07-03,0.0,382.54,2,Al Quadisiya Governorate
+2023-07-03,0.0,39.0,1,Karbala
+2023-07-03,0.0,78.6,1,Dhi Qar Governorate
+2023-07-04,0.0,322.95,3,Baghdad
+2023-07-04,0.0,27.4,1,Wasit
+2023-07-04,0.0,27.4,1,Maysan
+2023-07-04,0.0,1060.0,1,Diyala Governorate
+2023-07-04,0.0,757.54,1,Al Muthanna Governorate
+2023-07-04,0.0,1060.0,1,Al Anbar
+2023-07-05,3.36,1148.12,7,Baghdad
+2023-07-03,0.0,2155.29,9,Al Sulaymaniah
+2023-07-04,10.88,288.4,2,Basrah
+2023-07-04,0.0,147.95,1,Al Quadisiya Governorate
+2023-07-04,0.0,52.0,1,Al Sulaymaniah
+2023-07-04,0.0,78.0,1,Najaf
+2023-07-04,0.0,85.0,1,Karbala
+2023-07-04,0.0,69.0,1,Mosul
+2023-07-04,0.0,274.0,1,Babel
+2023-07-05,0.0,274.0,1,Basrah
+2023-07-05,0.0,294.55,2,Najaf
+2023-07-05,0.0,75.0,1,Babel
+2023-07-05,0.0,58.0,1,Al Sulaymaniah
+2023-07-05,0.0,107.0,1,Salah Al Deen
+2023-07-05,0.0,169.0,1,Mosul
+2023-07-05,5.44,5.7,1,Karbala
+2023-07-05,0.0,293.0,1,Maysan
+2023-07-06,0.0,60.11,1,Baghdad
+2023-07-06,5.44,20.0,1,Basrah
+2023-07-04,0.0,265.0,1,Erbil
