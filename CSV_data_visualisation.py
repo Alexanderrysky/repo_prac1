@@ -17,11 +17,11 @@ revenue = pd.read_csv("revenue_july.csv")
 #plt.show()
 
 #PLOTTIG PIE GRAPH
-#revenue['gross_revenue'] = revenue['gross_revenue'].astype(float)
+revenue_no_date = pd.read_csv("july_revenue_no_dates.csv")
+revenue_no_date['gross_revenue'] = revenue_no_date['gross_revenue'].astype(float)
 #print(revenue.dtypes)
-#plt.pie(revenue["gross_revenue"], labels = revenue["city_name_en"])
-#plt.show()
-
+plt.pie(revenue_no_date["gross_revenue"], labels=revenue_no_date["city_name_en"],rotatelabels=30)
+plt.show()
 
 #BAR CHART EXPERIMENTATION
 #plt.bar(x = revenue['sales_date'],height = revenue['gross_revenue'],color = 'orange')
@@ -35,10 +35,11 @@ revenue = pd.read_csv("revenue_july.csv")
 #plt.ylabel("gross revenue")
 #plt.show()
 
-revenue = revenue.head(24)
-df = pd.DataFrame(revenue, columns=["sales_date","gross_revenue","gross_shipping_cost"])
-df = df.sort_values('sales_date')
-df.plot(x="sales_date", y=["gross_revenue", "gross_shipping_cost"], kind="bar", rot=30, figsize=(9, 8))
-plt.xlabel("dates")
-plt.ylabel("gross revenue/shipping cost")
-plt.show()
+#BEST BAR CHART
+#revenue = revenue.head(len(revenue))
+#df = pd.DataFrame(revenue, columns=["sales_date","gross_revenue","gross_shipping_cost"])
+#df = df.sort_values('sales_date')
+#df.plot(x="sales_date", y=["gross_revenue", "gross_shipping_cost"], kind="bar", rot=30, figsize=(9, 8))
+#plt.xlabel("dates")
+#plt.ylabel("gross revenue/shipping cost")
+#plt.show()
