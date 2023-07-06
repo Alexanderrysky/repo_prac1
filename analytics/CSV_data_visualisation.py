@@ -17,11 +17,22 @@ revenue_full = pd.read_csv("revenue_july_full.csv")
 #plt.show()
 
 #PLOTTIG PIE GRAPH
+#revenue pie graph
 revenue_no_date = pd.read_csv("july_revenue_no_dates.csv")
 revenue_no_date['gross_revenue'] = revenue_no_date['gross_revenue'].astype(float)
-#print(revenue.dtypes)
-plt.pie(revenue_no_date["gross_revenue"], labels=revenue_no_date["city_name_en"],rotatelabels=30)
+#print(revenue_no_date.dtypes)
+plt.pie(revenue_no_date["gross_revenue"], labels=revenue_no_date["city_name_en"],rotatelabels=30,
+        textprops={'fontsize':5.5})
+#plt.title("GROSS REVENUE SHARE")
 plt.show()
+
+#shipping cost pie graph
+#shipping_cost_no_date = pd.read_csv("july_shipping_cost_no_dates.csv")
+#plt.pie(shipping_cost_no_date["gross_shipping_cost"], labels=shipping_cost_no_date["city_name_en"],rotatelabels=30)
+#plt.title("GROSS SHIPPING COST SHARE")
+#plt.show()
+
+
 
 #BAR CHART EXPERIMENTATION
 #plt.bar(x = revenue_full['sales_date'],height = revenue['gross_revenue'],color = 'orange')
